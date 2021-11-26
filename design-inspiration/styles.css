@@ -3,6 +3,7 @@ font-family: 'Playfair Display', serif; */
 
 body {
   font-family: 'Montserrat', sans-serif;
+
 }
 
  h1, h2, h3, h4, h5, h6 {
@@ -14,6 +15,7 @@ body {
   background-color: white;
   border: 2px black solid;
   padding: 10px;
+  width: fit-content;
 }
 
 .color-1 {
@@ -51,4 +53,12 @@ body {
   width: 150px;
   display: inline-block;
   background-color: #FFE59C;
+}
+
+.wireframes {
+  display: flex;
+}
+
+.wireframe {
+  margin: 10px;
 }
