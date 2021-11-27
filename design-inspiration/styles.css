@@ -59,6 +59,10 @@ body {
   display: flex;
 }
 
+img {
+    width: 450px;
+}
+
 .wireframe {
   margin: 15px;
 }
