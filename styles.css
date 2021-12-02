@@ -74,11 +74,12 @@ a:hover {
 
 .image-wrapper {
   display: flex;
+  float: left;
 }
 
 .image {
   border: 1px solid black;
-  min-width: 500px;
+  min-width: 350px;
 }
 
 .image1 {
@@ -94,8 +95,8 @@ a:hover {
 
 .image2 {
   margin-right: 40px;
-  width: 100%;
-  height: 100%;
+  width: 75%;
+  height: 75%;
   background-color: white;
   padding: 7px;
 }
