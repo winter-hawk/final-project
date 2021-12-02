@@ -26,6 +26,7 @@ figcaption {
 .date {
   font-size: 14px;
   font-style: italic;
+  line-height: 0px;
 }
 
 .text-container {
@@ -38,6 +39,7 @@ figcaption {
   max-width: 600px;
   margin: auto;
   text-align: center;
+  font-size: 18px;
 }
 
 .container {
@@ -50,7 +52,7 @@ figcaption {
 
 h1 {
   text-align: center;
-  font-size: 40px;
+  font-size: 44px;
 }
 
  h1, h2, h3, h4, h5, h6 {
@@ -63,59 +65,11 @@ h1 {
  }
 
  a {
-   color: #faa35b;
+   color: #fabc10;
  }
 
-#color-palette {
-  background-color: white;
-  border: 2px black solid;
-  padding: 10px;
-  width: fit-content;
-}
-
-.color-1 {
-  height: 150px;
-  width: 150px;
-  display: inline-block;
-  background-color: #000000;
-  color: white;
-}
-
-.color-2 {
-  height: 150px;
-  width: 150px;
-  display: inline-block;
-  background-color: #292929;
-  color: white;
-}
-
-.color-3 {
-  height: 150px;
-  width: 150px;
-  display: inline-block;
-  background-color: #F5F5F5;
-}
-
-.color-4 {
-  height: 150px;
-  width: 150px;
-  display: inline-block;
-  background-color: #FFD2AD;
-}
-
-.color-5 {
-  height: 150px;
-  width: 150px;
-  display: inline-block;
-  background-color: #FFE59C;
-}
-
-.wireframes {
-  display: flex;
-}
-
-.wireframe {
-  margin: 10px;
+a:hover {
+  color: #f89748;
 }
 
 .image-wrapper {
