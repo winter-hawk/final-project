@@ -3,12 +3,13 @@ font-family: 'Playfair Display', serif;*/
 
 body {
   font-family: 'Inter', sans-serif;
-  margin: 0;
+  margin: 0px;
   font-size: 20px;
 }
 
 p {
   line-height: 24px;
+  margin-bottom: 25px;
 }
 
 .header-container {
@@ -35,6 +36,10 @@ figcaption {
   background-color: #f5f5f5;
 }
 
+.margin {
+  margin-top: 0px;
+}
+
 .subhead {
   max-width: 600px;
   margin: auto;
@@ -43,11 +48,9 @@ figcaption {
 }
 
 .container {
-  display: flex;
   flex-direction: column;
   max-width: 800px;
   margin: auto;
-  padding-bottom: 10px;
 }
 
 h1 {
@@ -65,16 +68,15 @@ h1 {
  }
 
  a {
-   color: #fabc10;
+   color: #e2a809;
  }
 
 a:hover {
-  color: #f89748;
+  color: #f88324;
 }
 
 .image-wrapper {
   display: flex;
-  float: left;
 }
 
 .image {
@@ -99,6 +101,13 @@ a:hover {
   height: 75%;
   background-color: white;
   padding: 7px;
+}
+
+@media screen and (max-width: 400px) {
+  .image-wrapper {
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 img {
