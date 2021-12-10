@@ -66,7 +66,7 @@
 }
  .image {
      border: 1px solid black;
-     min-width: 350px;
+     min-width: 413px;
 }
 
  .image1 {
@@ -77,13 +77,13 @@
      padding: 7px;
 }
  .image2 {
-     margin-right: 40px;
+     margin-left: 40px;
      width: 75%;
      height: 75%;
      background-color: white;
      padding: 7px;
 }
- @media only screen and (max-width: 600px) {
+ @media only screen and (max-width: 768px) {
      .image-wrapper {
          display: flex;
          flex-direction: column;
@@ -91,9 +91,9 @@
      .image2 {
          margin: auto;
     }
-     .margin {
-         margin-top: 30px;
-    }
+     .image {
+       min-width: 320px;
+     }
      .text-container {
          padding-left: 10px;
          padding-right: 10px;
